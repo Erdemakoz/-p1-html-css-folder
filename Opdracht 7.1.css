@@ -1,0 +1,117 @@
+*
+{
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+
+}
+#HamburgerMenu
+{  
+display: none;
+/* Dekstop */
+
+}
+nav
+
+{
+    wIdth: 90vw;
+    height: 10vh;
+    padding: 2vh 5vw 2vh 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: red;
+
+}
+h1
+{
+
+color: white;
+
+}
+h1
+{
+height: 100%;
+padding: 2vh 5vw 2vh 5vw;
+}
+#MainContainer
+{
+width: 100vw;
+height: 86vh;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+#Section1
+{
+
+    background-color: rgb(3, 230, 246);
+}    
+*Section2
+
+{
+    background-color: rgb(200, 25, 98);
+}
+*Section3
+
+{
+
+ background-color: rgb(67, 51, 116);
+   
+}
+
+/* Phone */
+@media only screen and (max-width:786px) {
+#HamburgerMenu
+{
+display: inline;
+height: 3vh;
+width: 3vh;
+background-color: rgb(136, 74, 74);
+
+}
+section
+
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+nav
+{
+    justify-content: space-between;
+background-color: brown
+}
+
+
+
+/* Tablet */
+@media only screen and (min-width:576px) and (max-width: 786px) {
+#HamburgerMenu
+
+{
+    display: none;
+}
+nav
+{
+    justify-content: space-between;
+background-color: brown
+}
+#Section1
+{
+
+    background-color: rgb(139, 139, 41);
+}    
+*Section2
+
+{
+    background-color: rgb(93, 78, 147);
+}
+*Section3
+
+{
+
+ background-color: rgb(116, 25, 23);
+   
+}
